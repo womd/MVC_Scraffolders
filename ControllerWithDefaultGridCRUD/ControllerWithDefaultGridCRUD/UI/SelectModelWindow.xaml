@@ -1,0 +1,26 @@
+﻿<Window x:Class="ControllerWithDefaultGridCRUD.UI.SelectModelWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" Height="376" Width="511" Title="DefaultGrid CRUD">
+    <Grid>
+        <Label Content="Namespace:" HorizontalAlignment="Left"   Margin="89,31,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding NameSpace, Mode=OneWayToSource}" Height="23" HorizontalAlignment="Left" Margin="169,34,0,0" x:Name="NameSpace" VerticalAlignment="Top" Width="311" />
+
+
+        <Label Content="Name of the Controller:" HorizontalAlignment="Left"   Margin="28,78,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding ControllerName, Mode=OneWayToSource}" Height="23" HorizontalAlignment="Left" Margin="169,81,0,0" Name="ControllerName" VerticalAlignment="Top" Width="311" />
+
+
+        <Label Content="Name of the Kendo-Grid:" HorizontalAlignment="Left"   Margin="20,122,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding GridName, Mode=OneWayToSource}" Height="23" HorizontalAlignment="Left" Margin="169,124,0,0" Name="GridName" VerticalAlignment="Top" Width="311" />
+
+        <Label Content="ViewModel:" HorizontalAlignment="Left"   Margin="20,161,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding ViewModel, Mode=OneWayToSource}" Height="23" HorizontalAlignment="Left" Margin="169,163,0,0" x:Name="ViewModel" VerticalAlignment="Top" Width="311" />
+
+        <Button Content="Add" IsDefault="True" HorizontalAlignment="Left" Margin="312,203,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.187,0.75" Click="Button_Click"/>
+        <Button Content="Cancel" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="405,203,0,0"/>
+        
+    </Grid>
+</Window>
