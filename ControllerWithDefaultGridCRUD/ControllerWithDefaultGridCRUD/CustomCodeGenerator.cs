@@ -58,20 +58,28 @@ namespace ControllerWithDefaultGridCRUD
                 //You can pass more parameters after they are defined in the template
             };
 
+            //add the Controller
             this.AddFileFromTemplate(Context.ActiveProject,
                 string.Format("Controllers\\{0}Controller",controllerName),
                 "AjaxCRUDControllerTemplate",
                 parameters,
                 skipIfExists: false);
 
+            //create Views - Folder
             this.AddFolder(Context.ActiveProject, string.Format("Views\\{0}", controllerName));
-
+            //add View
             this.AddFileFromTemplate(Context.ActiveProject,
                 string.Format("Views\\{0}\\{1}", controllerName, gridName),
                 "AjaxBatchGridViewTemplate",
                 parameters,
                 skipIfExists: false);
-                
+
+            //add default index with partialview embedded
+            this.AddFileFromTemplate(Context.ActiveProject,
+                string.Format("Views\\{0}\\Index", controllerName),
+                "IndexWithGridPartial",
+                parameters,
+                skipIfExists: false);
 
         }
 
