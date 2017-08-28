@@ -18,13 +18,13 @@ namespace ControllerWithDefaultGridCRUD
         /// </summary>
         private static CodeGeneratorInformation _info = new CodeGeneratorInformation(
             displayName: "Kendo-Ajax-Grid CRUD",
-            description: "Controller Scaffolder widht Kendo-Ajax-Grid CRUD (DefaultGrid).",
+            description: "Scaffolders for faster use of Kendo MVC.",
             author: "Christian Knörnschild",
             version: new Version(1, 0, 0, 0),
             id: typeof(CustomCodeGenerator).Name,
             icon: ToImageSource(Resources._TemplateIconSample),
-            gestures: new[] { "Controller"},
-            categories: new[] { Categories.MvcController });
+            gestures: new[] { "Controller","View"},
+            categories: new[] { Categories.MvcController, Categories.MvcView, Categories.Mvc });
 
         public CustomCodeGeneratorFactory()
             : base(_info)

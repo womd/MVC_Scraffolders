@@ -1,6 +1,7 @@
-C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Author Name\ControllerWithDefaultGridCRUDExtension\1.0\\ControllerWithDefaultGridCRUD.dll
-C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Author Name\ControllerWithDefaultGridCRUDExtension\1.0\\extension.vsixmanifest
-C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Author Name\ControllerWithDefaultGridCRUDExtension\1.0\\Microsoft.AspNet.Scaffolding.12.0.dll
-C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Author Name\ControllerWithDefaultGridCRUDExtension\1.0\\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
-C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Author Name\ControllerWithDefaultGridCRUDExtension\1.0\\Templates\CustomCodeGenerator\CustomTextTemplate.cs.t4
-C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Author Name\ControllerWithDefaultGridCRUDExtension\1.0\\ControllerWithDefaultGridCRUD.pdb
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\ControllerWithDefaultGridCRUD.dll
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\extension.vsixmanifest
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\Microsoft.AspNet.Scaffolding.12.0.dll
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\Templates\CustomCodeGenerator\AjaxBatchGridViewTemplate.cs.t4
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\Templates\CustomCodeGenerator\AjaxCRUDControllerTemplate.cs.t4
+C:\Users\c.knoernschild\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Christian Knörnschild\ControllerWithDefaultGridCRUDExtension\1.0.1\\ControllerWithDefaultGridCRUD.pdb

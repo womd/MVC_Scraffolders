@@ -58,12 +58,20 @@ namespace ControllerWithDefaultGridCRUD
                 //You can pass more parameters after they are defined in the template
             };
 
-            // Add the custom scaffolding item from T4 template.
             this.AddFileFromTemplate(Context.ActiveProject,
                 string.Format("Controllers\\{0}Controller",controllerName),
-                "CustomTextTemplate",
+                "AjaxCRUDControllerTemplate",
                 parameters,
                 skipIfExists: false);
+
+            this.AddFolder(Context.ActiveProject, string.Format("Views\\{0}", controllerName));
+
+            this.AddFileFromTemplate(Context.ActiveProject,
+                string.Format("Views\\{0}\\{1}", controllerName, gridName),
+                "AjaxBatchGridViewTemplate",
+                parameters,
+                skipIfExists: false);
+                
 
         }
 

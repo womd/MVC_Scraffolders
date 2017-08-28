@@ -65,7 +65,10 @@
     <Compile Include="UI\ModelType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Templates\CustomCodeGenerator\CustomTextTemplate.cs.t4">
+    <None Include="Templates\CustomCodeGenerator\AjaxBatchGridViewTemplate.cs.t4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\CustomCodeGenerator\AjaxCRUDControllerTemplate.cs.t4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
